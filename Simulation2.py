@@ -29,6 +29,7 @@ def main():
     adaptation_prob = float(input("Enter the probability of environment adaptation (between 0 and 1): "))
     simulate_system(num_iterations, success_prob, disturbance_prob, adaptation_prob)
 
+# mian running
 if __name__ == "__main__":
     main()
 
